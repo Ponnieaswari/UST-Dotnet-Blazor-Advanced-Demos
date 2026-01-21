@@ -16,12 +16,69 @@
     <button class="btn btn-success" @onclick="AddLearner">Add Learner</button>
 </div>
 
+<LearnerList Learners="learners" 
+    OnDelete="DeleteLearner" 
+    OnEdit="OpenEditModal">
+</LearnerList>
+
+
+    @if(ShowEditModal)
+    {
+        <EditLearner Learner="selectedLearner" OnCancel="CloseEditModal" OnUpdate="UpdateLearner"></EditLearner>
+    }
+
+
+
 @code {
     LearnerDto newlearner = new LearnerDto();
+    List<LearnerDto> learners = new List<LearnerDto>();
+    LearnerDto? selectedLearner;
+
+    bool ShowEditModal = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        learners = await Api.GetAllLearnersAsync();
+    }
 
     async Task AddLearner()
     {
         await Api.AddLearnerAsync(newlearner);
+        learners = await Api.GetAllLearnersAsync();
+        //or
+        //learners.Add(newlearner);
         newlearner = new LearnerDto();
+    }
+
+    async Task DeleteLearner(LearnerDto learner)
+    {
+        await Api.DeleteLearnerasync(learner.Id);
+        learners.Remove(learner);
+        //or
+        //learners = await Api.GetAllLearnersAsync();
+    }
+
+    void OpenEditModal(LearnerDto learner)
+    {
+        selectedLearner = new LearnerDto
+        {
+            Id = learner.Id,
+            Name = learner.Name,
+            Stream = learner.Stream,
+            Score = learner.Score
+        };
+        ShowEditModal = true;
+    }
+
+    async Task UpdateLearner(LearnerDto learner)
+    {
+        await Api.UpdateAsyncLearner(learner.Id,learner);
+        learners = await Api.GetAllLearnersAsync();
+        ShowEditModal = false;
+    }
+
+    void CloseEditModal()
+    {
+        ShowEditModal = false;
     }
 }

@@ -1,5 +1,62 @@
-﻿<h3>EditLearner</h3>
+﻿@page "/edit-learner"
+@rendermode InteractiveServer
+
+
+<div class="modal-backdrop show"></div>
+
+<div class="modal d-block">
+    <div class="modal-dialog">
+        <div class="modal-content p-3">
+
+            <h5>Edit Learner</h5>
+
+            <input class="form-control mb-2" @bind="editable.Name"
+                   />
+
+            <input class="form-control mb-2" @bind="editable.Stream"
+                    />
+
+            <input type="number"
+                   class="form-control mb-2" @bind="editable.Score"
+                   />
+
+            <div class="text-end">
+                <button class="btn btn-secondary me-2"
+                        @onclick="()=>OnCancel.InvokeAsync()">
+                    Cancel
+                </button>
+
+                <button class="btn btn-primary"
+                        @onclick="()=>OnUpdate.InvokeAsync(editable)">
+                    Update
+                </button>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 @code {
 
+    LearnerDto editable = new LearnerDto();
+    [Parameter]
+    public LearnerDto Learner { get; set; } = new LearnerDto();
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+    [Parameter]
+    public EventCallback<LearnerDto> OnUpdate { get; set; }
+
+
+    protected override void OnParametersSet()
+    {
+       editable = new LearnerDto
+        {
+            Id = Learner.Id,
+            Name = Learner.Name,
+            Stream = Learner.Stream,
+            Score = Learner.Score
+        };
+    }
 }

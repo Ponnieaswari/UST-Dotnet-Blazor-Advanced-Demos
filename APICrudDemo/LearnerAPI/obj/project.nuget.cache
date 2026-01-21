@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sKdr3C+7Ugo=",
+  "dgSpecHash": "HfkgLIoeMdQ=",
   "success": true,
-  "projectFilePath": "D:\\Turmio.ai\\UST Demos Track 4\\APICrudDemo\\LearnerAPI\\LearnerAPI.csproj",
+  "projectFilePath": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerAPI\\LearnerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

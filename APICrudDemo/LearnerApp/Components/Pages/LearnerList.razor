@@ -1,5 +1,36 @@
 ﻿<h3>LearnerList</h3>
+@rendermode InteractiveServer
+
+<div class="row mt-3">
+    @foreach(var learner in Learners)
+    {
+        <div class="col-md-4">
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                    <span class="material-icons text-primary-emphasis" style="cursor: pointer;"
+                    @onclick="()=>OnEdit.InvokeAsync(learner)">
+                        edit
+                    </span>
+                    <span class="material-icons text-danger float-end" 
+                    style="cursor: pointer;" @onclick="()=>OnDelete.InvokeAsync(learner)">
+                        delete
+                    </span>
+                    <h5 class="card-title">@learner.Name</h5>
+                    <p class="card-text">Stream: @learner.Stream</p>
+                    <p class="card-text">Score: @learner.Score</p>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
 
 @code {
 
+    [Parameter]
+    public List<LearnerDto> Learners { get; set; } = new();
+    [Parameter]
+    public EventCallback<LearnerDto> OnDelete { get; set; }
+    [Parameter]
+    public EventCallback<LearnerDto> OnEdit { get; set; }
 }
