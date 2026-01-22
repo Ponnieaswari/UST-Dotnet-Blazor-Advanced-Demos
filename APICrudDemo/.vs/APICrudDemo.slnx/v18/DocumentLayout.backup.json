@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|solutionrelative:learnerapp\\components\\pages\\editlearner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\apicruddemo\\learnerapp\\services\\learnerapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|solutionrelative:learnerapp\\services\\learnerapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\apicruddemo\\learnerapp\\components\\pages\\learnerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|solutionrelative:learnerapp\\components\\pages\\learnerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\apicruddemo\\learnerapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|solutionrelative:learnerapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\apicruddemo\\learnerapp\\services\\learnerapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|solutionrelative:learnerapp\\services\\learnerapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E44280E-DE14-38DF-2BFE-725A8A1F7F38}|LearnerApp\\LearnerApp.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\apicruddemo\\learnerapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.razor",
               "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "LearnerApp\\Components\\App.razor",
@@ -91,19 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "LearnerApp\\Components\\_Imports.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\_Imports.razor",
-              "RelativeToolTip": "LearnerApp\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T05:41:53.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LearnerList.razor",
               "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\Pages\\LearnerList.razor",
               "RelativeDocumentMoniker": "LearnerApp\\Components\\Pages\\LearnerList.razor",
@@ -134,7 +122,7 @@
               "RelativeDocumentMoniker": "LearnerApp\\Components\\Pages\\AddNewLearner.razor",
               "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\Pages\\AddNewLearner.razor",
               "RelativeToolTip": "LearnerApp\\Components\\Pages\\AddNewLearner.razor",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAE8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-20T05:38:37.531Z",
               "EditorCaption": ""
@@ -147,10 +135,35 @@
               "RelativeDocumentMoniker": "LearnerApp\\Components\\Pages\\EditLearner.razor",
               "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\Pages\\EditLearner.razor",
               "RelativeToolTip": "LearnerApp\\Components\\Pages\\EditLearner.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-20T05:39:12.845Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LearnerApiService.cs",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Services\\LearnerApiService.cs",
+              "RelativeDocumentMoniker": "LearnerApp\\Services\\LearnerApiService.cs",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Services\\LearnerApiService.cs",
+              "RelativeToolTip": "LearnerApp\\Services\\LearnerApiService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:23:54.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "LearnerApp\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "LearnerApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T05:41:53.954Z"
             },
             {
               "$type": "Document",
@@ -163,19 +176,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-20T05:50:30.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LearnerApiService.cs",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Services\\LearnerApiService.cs",
-              "RelativeDocumentMoniker": "LearnerApp\\Services\\LearnerApiService.cs",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\APICrudDemo\\LearnerApp\\Services\\LearnerApiService.cs",
-              "RelativeToolTip": "LearnerApp\\Services\\LearnerApiService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T05:23:54.662Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -4,6 +4,7 @@ namespace LearnerApp.Services
 {
     public class LearnerApiService
     {
+        // Through Constructor Injection, we get an instance of HttpClient
         private readonly HttpClient http;
         public LearnerApiService(HttpClient http)
         {

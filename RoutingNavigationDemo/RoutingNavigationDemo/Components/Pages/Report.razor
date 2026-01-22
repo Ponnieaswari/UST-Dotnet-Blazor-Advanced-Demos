@@ -1,0 +1,19 @@
+﻿@page "/report"
+@page "/report/{year:int}"
+
+<h3>Report</h3>
+
+@if(Year.HasValue)
+{
+    <p>Report for the year: @Year</p>
+}
+else
+{
+    <p>No specific year provided. Displaying general report.</p>
+}
+
+
+@code {
+    [Parameter]
+    public int? Year { get; set; }
+}

@@ -1,0 +1,23 @@
+﻿@page "/"
+@inject NavigationManager NavManager
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+<button @onclick="GoToWeather">Go To Weather</button>
+
+Welcome to your new app.
+
+<a href="weather">Weather1</a>
+<a href="/weather">Weather2</a>
+
+
+<Learners></Learners>
+
+@code {
+    private void GoToWeather()
+    {
+        NavManager.NavigateTo("/weather");
+    }
+}

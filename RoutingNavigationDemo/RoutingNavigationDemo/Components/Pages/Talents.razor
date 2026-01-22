@@ -1,0 +1,174 @@
+﻿@page "/talents"
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Components
+@using RoutingNavigationDemo.Models
+
+<h3>Talents</h3>
+
+
+@* OnChange will be triggered when the value changes  *@
+<input class="form-control mb-3"
+       placeholder="Search by skill..."
+       value="@Search"
+       @onchange="OnSearchChanged" />
+
+@if (pagedTalents.Any())
+{
+    <ul class="list-group mb-3">
+        @foreach (var t in pagedTalents)
+        {
+            <li class="list-group-item">
+                <strong>@t.Name</strong> - @t.Skill
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No talents found.</p>
+}
+
+<div class="d-flex gap-2 align-items-center">
+    <button class="btn btn-secondary"
+            @onclick="PrevPage"
+            disabled="@(Page <= 1)">
+        Prev
+    </button>
+
+    <span>Page @Page</span>
+
+    <button class="btn btn-secondary"
+            @onclick="NextPage">
+        Next
+    </button>
+</div>
+
+
+@code {
+    // 🔹 Query string parameters
+    // Bind 'search' and 'page' query parameters from the URL
+    // to these properties
+    // e.g., /talents?search=.NET&page=2
+    // will set Search=".NET" and Page=2
+    // OnParametersSet() is called whenever these values change
+    // SupplyParameterFromQuery attribute enables this binding
+    [SupplyParameterFromQuery]
+    public string? Search { get; set; }
+
+    // Default to page 1 if not specified
+    // so if 'page' is missing in the URL, Page will be 1
+
+    [SupplyParameterFromQuery]
+    public int Page { get; set; } = 1;
+
+    // 🔹 Mock Talent Data
+    List<Talent> allTalents = new()
+    {
+        new() { Id = 1, Name = "Arun", Skill = ".NET" },
+        new() { Id = 2, Name = "Bhavya", Skill = "Java" },
+        new() { Id = 3, Name = "Charan", Skill = ".NET" },
+        new() { Id = 4, Name = "Divya", Skill = "Python" },
+        new() { Id = 5, Name = "Eshan", Skill = "React" },
+        new() { Id = 6, Name = "Farah", Skill = ".NET" },
+        new() { Id = 7, Name = "Gaurav", Skill = "Java" },
+        new() { Id = 8, Name = "Hina", Skill = "Python" },
+        new() { Id = 9, Name = "Ishaan", Skill = "React" },
+        new() { Id = 10, Name = "Jaya", Skill = ".NET" },
+        new() { Id = 11, Name = "Karan", Skill = "Java" },
+        new() { Id = 12, Name = "Lina", Skill = "Python" },
+        new() { Id = 13, Name = "Mira", Skill = "React" }
+    };
+
+    List<Talent> pagedTalents = new();
+
+    // Page size for pagination
+    // Number of items per page
+    const int PageSize = 2;
+
+    // 🔹 Triggered whenever URL/query changes
+    // Initially for the first load this will be called too, because
+    // Filter and paginate talents based on Search and Page
+    //values when these query parameters change it will re-execute
+    protected override void OnParametersSet()
+    {
+        // AsEnumerable to enable LINQ operations
+        // allTalents is List<Talent> , so we convert it to IEnumerable<Talent>
+        // to use LINQ methods like Where, Skip, Take
+        var filtered = allTalents.AsEnumerable();
+
+        //if Search is not null or whitespace, filter talents by skill
+        if (!string.IsNullOrWhiteSpace(Search))
+        {
+            // Case-insensitive search
+            //Contains method checks if the Skill property contains the Search string
+            // StringComparison.OrdinalIgnoreCase makes the search case-insensitive
+            filtered = filtered.Where(t =>
+                t.Skill.Contains(Search, StringComparison.OrdinalIgnoreCase));
+        }
+
+        // Pagination logic
+        // Skip (Page - 1) * PageSize items means skip items of previous pages
+        // For example, if Page=2 and PageSize=2, we skip (2-1)*2=2 items
+        // to show items for page 2
+        //  and take PageSize items for the current page
+        // which is 2 items in this case
+        // Take method will display only the number of items defined by PageSize
+        // Finally, convert the result to a List<Talent>
+        pagedTalents = filtered
+            .Skip((Page - 1) * PageSize)
+            .Take(PageSize)
+            .ToList();
+
+        // Here we have filtered and paginated the talents
+    }
+
+    void OnSearchChanged(ChangeEventArgs e)
+    {
+        // Get the new search value from the input
+        // e.Value is of type object, so we convert it to string
+        // If e.Value is null, we use an empty string
+        // ? and ?? are null-conditional and null-coalescing operators
+        // ? checks if e.Value is not null before calling ToString()
+        // ?? provides a default value of "" if e.Value is null
+        var value = e.Value?.ToString() ?? "";
+        // Navigate to the first page with the new search term
+        // ?search=value&page=1 here ? indicates the start of query parameters
+        // We reset to page 1 whenever the search term changes
+        Navigate($"?search={value}&page=1");
+    }
+
+    void NextPage() => Navigate($"?search={Search}&page={Page + 1}");
+    void PrevPage() => Navigate($"?search={Search}&page={Page - 1}");
+
+
+    // ️ Programmatic Navigation with Query Strings
+    // Navigate to the talents page with the given query string
+    void Navigate(string query)
+    {
+        NavigationManager.NavigateTo($"/talents{query}");
+    }
+
+    [Inject]
+    NavigationManager NavigationManager { get; set; } = default!;
+
+
+    // In this demo we have implemented a Talents page that supports
+    // searching and pagination using query string parameters.
+
+    //Query string parameters are values passed in the URL after
+    //  ? and are used to control search, filtering, and pagination.
+
+    //  talents - shows all talents, page 1
+    // talents? search =.net - shows talents with .NET skill, page 1
+    //  talents ? search =.net & page = 2 - shows talents with .NET skill, page 2
+    //  talents ? page = 2 - shows all talents, page 2
+
+    // The OnParametersSet method is triggered whenever the query parameters change,
+    // allowing us to filter and paginate the talent list accordingly.
+
+    //But How it applies pagination in the initial load when there is no query parameter?
+    // Because we have set a default value of 1 for the Page property.
+    // So when the page loads without any query parameters, the Page property will be 1,
+    // and the OnParametersSet method will apply pagination for page 1 by default.
+
+}

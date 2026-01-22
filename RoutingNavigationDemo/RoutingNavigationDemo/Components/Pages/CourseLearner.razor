@@ -1,0 +1,12 @@
+﻿@page "/course/{CourseId:int}/learner/{LearnerId:int}"
+<h3>CourseLearner</h3>
+
+<p>Course Id is @CourseId</p>
+<p>Learner Id is @LearnerId</p>
+@code {
+    [Parameter]
+    public int CourseId { get; set; }
+    [Parameter]
+    public int LearnerId { get; set; }
+
+}

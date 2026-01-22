@@ -1,0 +1,14 @@
+﻿@page "/learners"
+@inject NavigationManager NavigationManager
+<h3>Learners</h3>
+
+<button class="btn btn-primary" @onclick="()=>GoToLearnerDetails(1)">View Learner1</button>
+<button class="btn btn-primary" @onclick="()=>GoToLearnerDetails(2)">View Learner2</button>
+
+@code {
+    void GoToLearnerDetails(int id)
+    {
+        // Navigation logic to go to LearnerDetails page with the specified id
+        NavigationManager.NavigateTo($"/learnerdetails/{id}");
+    }
+}
