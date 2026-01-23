@@ -1,0 +1,30 @@
+﻿@page "/dashboard"
+@rendermode InteractiveServer   
+@inject NavigationManager NavigationManager
+@inject AuthStateService Auth
+
+<RouteGuard />
+
+<h3>Dashboard</h3>
+
+@if(!Auth.IsLoggedIn)
+{
+    <p>You are not logged in. Please log in to access the dashboard.</p>
+}
+else
+{
+    <h2>Welcome!!! You are Logged in!!!</h2>
+
+    <button class="btn btn-primary" @onclick="Logout">LOgOut</button>
+}
+
+@code {
+
+    
+    void Logout()
+    {
+        Auth.Logout();
+            NavigationManager.NavigateTo("/login",replace:true);
+        
+    }
+}

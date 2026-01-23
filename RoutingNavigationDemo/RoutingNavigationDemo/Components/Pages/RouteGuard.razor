@@ -1,0 +1,18 @@
+﻿@inject NavigationManager Navigation
+@inject AuthStateService Auth
+
+
+@code {
+    protected override void OnInitialized()
+    {
+        if (!Auth.IsLoggedIn)
+        {
+            Navigation.NavigateTo("/login", replace: true);
+        }
+
+        // if(!Auth.IsLoggedIn || AUth.Role !="Admin"))
+        // {
+        //     Navigation.NavigateTo("/UnAuthorized", replace: true);
+        //
+    }
+}

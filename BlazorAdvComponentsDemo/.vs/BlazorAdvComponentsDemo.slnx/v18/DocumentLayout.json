@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\blazoradvcomponentsdemo\\blazoradvcomponentsdemo\\components\\pages\\child2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|solutionrelative:blazoradvcomponentsdemo\\components\\pages\\child2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\blazoradvcomponentsdemo\\blazoradvcomponentsdemo\\components\\pages\\child1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|solutionrelative:blazoradvcomponentsdemo\\components\\pages\\child1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\blazoradvcomponentsdemo\\blazoradvcomponentsdemo\\components\\pages\\parent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|solutionrelative:blazoradvcomponentsdemo\\components\\pages\\parent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\blazoradvcomponentsdemo\\blazoradvcomponentsdemo\\components\\pages\\mycards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|solutionrelative:blazoradvcomponentsdemo\\components\\pages\\mycards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\blazoradvcomponentsdemo\\blazoradvcomponentsdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|solutionrelative:blazoradvcomponentsdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\blazoradvcomponentsdemo\\blazoradvcomponentsdemo\\components\\card.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C40D9A-D922-0030-BCBF-A39B5A210BE0}|BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo.csproj|solutionrelative:blazoradvcomponentsdemo\\components\\card.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Child2.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Child2.razor",
+              "RelativeDocumentMoniker": "BlazorAdvComponentsDemo\\Components\\Pages\\Child2.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Child2.razor",
+              "RelativeToolTip": "BlazorAdvComponentsDemo\\Components\\Pages\\Child2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-23T05:47:55.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Child1.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Child1.razor",
+              "RelativeDocumentMoniker": "BlazorAdvComponentsDemo\\Components\\Pages\\Child1.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Child1.razor",
+              "RelativeToolTip": "BlazorAdvComponentsDemo\\Components\\Pages\\Child1.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-23T05:40:14.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Parent.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Parent.razor",
+              "RelativeDocumentMoniker": "BlazorAdvComponentsDemo\\Components\\Pages\\Parent.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Parent.razor",
+              "RelativeToolTip": "BlazorAdvComponentsDemo\\Components\\Pages\\Parent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-23T05:39:57.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyCards.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\MyCards.razor",
+              "RelativeDocumentMoniker": "BlazorAdvComponentsDemo\\Components\\Pages\\MyCards.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\MyCards.razor",
+              "RelativeToolTip": "BlazorAdvComponentsDemo\\Components\\Pages\\MyCards.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-23T05:26:35.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorAdvComponentsDemo\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorAdvComponentsDemo\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-23T05:15:46.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Card.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Card.razor",
+              "RelativeDocumentMoniker": "BlazorAdvComponentsDemo\\Components\\Card.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\BlazorAdvComponentsDemo\\BlazorAdvComponentsDemo\\Components\\Card.razor",
+              "RelativeToolTip": "BlazorAdvComponentsDemo\\Components\\Card.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-23T05:14:24.32Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

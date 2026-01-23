@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\routeguard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\routeguard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\services\\authstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\services\\authstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\routingnavigationdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\routingnavigationdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\talents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\talents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\models\\talent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\models\\talent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\routingnavigationdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\routingnavigationdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\learnerdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,28 +63,12 @@
       "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\report.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\courselearner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\courselearner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\learners.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\learners.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|solutionrelative:routingnavigationdemo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37F2C8AD-459A-D280-B1E3-1C0391DD463F}|RoutingNavigationDemo\\RoutingNavigationDemo.csproj|d:\\turmio.ai\\b\\ust-blazor-advanced-demos\\routingnavigationdemo\\routingnavigationdemo\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,151 +86,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Talent.cs",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Models\\Talent.cs",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Models\\Talent.cs",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Models\\Talent.cs",
-              "RelativeToolTip": "RoutingNavigationDemo\\Models\\Talent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T05:05:54.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoutingNavigationDemo",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
-              "RelativeToolTip": "RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-22T05:05:22.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Talents.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE4AAAA5AAAAAAAAAA==",
+              "Title": "RouteGuard.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\RouteGuard.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\RouteGuard.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\RouteGuard.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\RouteGuard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T05:00:56.253Z",
+              "WhenOpened": "2026-01-23T05:00:20.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthStateService.cs",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Services\\AuthStateService.cs",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Services\\AuthStateService.cs",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Services\\AuthStateService.cs",
+              "RelativeToolTip": "RoutingNavigationDemo\\Services\\AuthStateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T04:28:52.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Report.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Report.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Report.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Report.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Report.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T04:55:44.412Z",
+              "WhenOpened": "2026-01-23T04:16:16.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CourseLearner.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Login.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T04:51:58.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Learners.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T04:44:32.908Z",
+              "WhenOpened": "2026-01-23T04:15:58.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LearnerDetails.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T04:40:27.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T04:15:40.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T04:21:32.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Counter.razor",
               "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Counter.razor",
               "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Counter.razor",
               "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-22T04:15:32.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T04:23:10.451Z"
+              "WhenOpened": "2026-01-22T04:15:40.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\_Imports.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-23T04:36:09.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Program.cs",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Program.cs",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Program.cs",
+              "RelativeToolTip": "RoutingNavigationDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T04:32:17.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Home.razor",
@@ -219,7 +207,118 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Talents.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Talents.razor",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T05:00:56.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T04:23:10.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoutingNavigationDemo.csproj",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
+              "RelativeToolTip": "RoutingNavigationDemo\\RoutingNavigationDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-22T05:05:22.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Report.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Report.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Report.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Report.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Report.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T04:55:44.412Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Talent.cs",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Models\\Talent.cs",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Models\\Talent.cs",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Models\\Talent.cs",
+              "RelativeToolTip": "RoutingNavigationDemo\\Models\\Talent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:05:54.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CourseLearner.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\CourseLearner.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T04:51:58.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Learners.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\Learners.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T04:44:32.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LearnerDetails.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Pages\\LearnerDetails.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T04:40:27.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "RoutingNavigationDemo\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T04:21:32.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "App.razor",
               "DocumentMoniker": "D:\\Turmio.ai\\b\\UST-Blazor-Advanced-Demos\\RoutingNavigationDemo\\RoutingNavigationDemo\\Components\\App.razor",
               "RelativeDocumentMoniker": "RoutingNavigationDemo\\Components\\App.razor",

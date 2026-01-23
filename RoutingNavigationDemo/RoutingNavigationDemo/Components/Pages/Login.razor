@@ -1,0 +1,22 @@
+﻿@page "/login"
+
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+@inject AuthStateService Auth
+<h3>Login</h3>
+
+
+<input  class="form-control"
+    placeholder="Enter Username" @bind="username" />
+<button class="btn btn" @onclick="SignIn">Login</button>
+
+
+@code {
+    string username = "";
+    void SignIn()
+    {
+        Auth.Login(username);
+        NavigationManager.NavigateTo("/dashboard");
+    }
+
+}

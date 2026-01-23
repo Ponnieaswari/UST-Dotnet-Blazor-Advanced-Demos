@@ -1,0 +1,17 @@
+﻿<h3>Card</h3>
+
+<div>
+    This is Html/UI/content from Card Component.
+    @ChildContent
+</div>
+
+
+<span>This holds normal string Parameter : @Title</span>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "Card Title";
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}
